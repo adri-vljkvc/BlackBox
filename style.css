@@ -48,7 +48,7 @@ hr {
     margin: 0px auto 40px auto;
 }
 
-li, #logo, video, img {
+li, #logo, video, img, #kontext img {
     transition: all 300ms;
     -webkit-transition: all 300ms;
     -moz-transition: all 300ms;
@@ -141,6 +141,12 @@ header nav ul li:hover {
     height: 100%;
 }
 
+#work p {
+    width: 100%;
+    margin: 0 auto 0 auto;
+    text-align: left;
+}
+
 #projects {
     width: 900px;
     margin: 0 auto 0 auto;
@@ -175,6 +181,25 @@ header nav ul li:hover {
     margin: 0 auto 0 auto;
     text-align: left;
 }
+
+#kontext img {
+    position: left;
+    width: 50%;
+}
+
+#kontext img:hover {
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+
+footer {
+    background-color: #f0f0f0;
+}
+    
+
+
 
 /* MEDIA QUERY */
 
