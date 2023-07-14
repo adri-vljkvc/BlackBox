@@ -182,10 +182,11 @@ header nav ul li:hover {
     text-align: left;
 }
 
-#kontext img {
-    position: left;
+#kontext a img {
+    position: center;
     width: 50%;
 }
+
 
 #kontext img:hover {
     transform: scale(1.1);
