@@ -88,7 +88,7 @@ header nav {
 
 header nav ul li {
     float: left;
-    margin-right: 25px;
+    margin-left: 25px;
 }
 
 header nav ul li a {
@@ -151,14 +151,15 @@ header nav ul li:hover {
 }
 
 #projects ul li {
-    width: 50%;
+    width: 33,3%;
     float: left;
-    margin-bottom: 15px;
+    margin: 0px 7px 15px 7px;
+  
 }
 
 #projects img {
-    width: 364px;
-    height: 221px;
+    width: 280px;
+    height: 170px;
     border-radius: 5px;
 }
 
@@ -173,4 +174,84 @@ header nav ul li:hover {
     width: 75%;
     margin: 0 auto 0 auto;
     text-align: left;
+}
+
+/* MEDIA QUERY */
+
+/* MEDIA QUERY Tablets */
+@media screen and (max-width: 1024px) {
+    header {
+        height: auto;
+    }
+    #logo {
+        width: 100px;
+        margin-top: 5px;
+    }
+    header nav {
+        margin-top: 5px;
+    }
+    header nav ul li {
+        font-size: 12px;
+    }
+    #home h1 {
+        font-size: 90px;
+        margin-top: 200px;
+    }
+    #home h2 {
+        font-size: 22px;
+    }
+    h3 {
+        padding: 12%;
+    }
+    #about p {
+        width: 80%;
+    }
+
+   #projects {
+        width: auto;
+    }
+    
+    #projects ul li {
+        width: 100%;
+        float: none;
+    }
+
+    #work {
+        width: auto;
+        height: auto;
+        padding-bottom: 100px;
+    }
+    
+    #projects ul li:last-child {
+        padding-bottom: 20%;
+    }
+    #projects img {
+        width: 55%;
+        height: auto;
+    }
+}
+
+/* MEDIA QUERY Mobile */
+@media screen and (max-width: 480px) {
+    #logo {
+        width: 90px;
+        margin-left: 30px;
+    }
+    header nav {
+        margin-top: 5px;
+   
+    }
+    #home h1 {
+        font-size: 60px;
+        margin-top: 200px;
+    }
+    #home h2 {
+        width: 70%;
+        height: auto;
+    }
+    #projects img {
+        width: 25%;
+        height: auto;
+    }
+
 }
